@@ -11,14 +11,14 @@ type="text"
 <label for="input_file" class="btn_send">
 <img
   class="icon"
-  src="/img/icon/clip_3917548.png"
+  src="https://vincentint.github.io/CHATTY.github.oi/img/icon/clip_3917548.png"
   alt="icon_clip_file"
 />
 </label>
 <button id="btn_send" class="btn_send">
 <img
   class="icon"
-  src="/img/icon/paper-plane-top_9821644.png"
+  src="https://vincentint.github.io/CHATTY.github.oi/img/icon/paper-plane-top_9821644.png"
   alt="icon_send"
 />
 </button>
