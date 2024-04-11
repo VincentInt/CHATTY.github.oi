@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chatty. Интернет соц сеть для общения.</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header_logotype">
+          <div class="logo">
+            <h2 class="text_logo">C!</h2>
+          </div>
+          <div class="container_text_logo">
+            <h1>Chatty!</h1>
+            <h3 class="text_version">09.04.24 push version</h3>
+          </div>
+        </div>
+      </header>
+      <section class="section_app">
+        <section class="navigation">
+          <form onsubmit="return false" id="search_contact" class="form_search">
+            <input class="input_search" placeholder="Поиск" type="text" />
+            <button class="btn_search">
+              <img
+                class="icon"
+                src="./img/icon/search_3917754.png"
+                alt="img_search"
+              />
+            </button>
+          </form>
+          <div id="drop_users_list" class="drop_down_user_list">
+            <img class="icon" src="/img/icon/chevron-double-down_6407456.png" alt="img_icon_arrow_down" />
+          </div>
+          <nav id="nav_contact_user" class="scroll_window nav_contacts">
+            <div class="load_container">
+              <div>
+                <div class="load"></div>
+                <h3 class="text_load">Загрузка</h3>
+              </div>
+            </div>
+          </nav>
+        </section>
+        <section class="section_chat">
+          <div class="container_chat">
+          <div id="user_chat"></div>
+          <div id="messeges_chat" class="scroll_window window_chat">
+            <div class="container_plugs">
+              <h3 class="text_plugs">Выберете чат</h3>
+            </div>
+          </div>
+          <form
+            onsubmit="return false"
+            id="form_messege"
+            class="form_messege"
+          ></form>
+        </div>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="/module/app.js"></script>
+  </body>
+</html>
