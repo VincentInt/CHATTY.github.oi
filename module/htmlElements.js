@@ -32,7 +32,7 @@ export const cardSendImgFileHTML = (
 </div>
   <h3 class="img_file_name">${fileName}</h3>
 <button id="btn_delete_${id}" class="trash_btn">
-  <img class="trash_img" src="./img/icon/trash-xmark_10741733.png" alt="img_file_delete" />
+  <img class="trash_img" src="https://vincentint.github.io/CHATTY.github.oi/img/icon/trash-xmark_10741733.png" alt="img_file_delete" />
 </button>
 </div>`;
 export const cardChatUsersHTML = (avatar, userName, phone) =>
